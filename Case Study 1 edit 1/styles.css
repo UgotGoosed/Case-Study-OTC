@@ -11,6 +11,7 @@ html, body {
     text-align: center;
     display: flex;
     align-items: center;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .cover-caption {
@@ -20,18 +21,22 @@ html, body {
 /* container */
 body {
     background: black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h4 {
+    text-shadow: 0 0 5px darkmagenta;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
     text-decoration: underline;
-    color: darkmagenta;
+    color: slategrey;
 }
+
 
 .kids, .links, .video, .theories, .adspace {
     height: 300px;
-    background: black;
     border: 2px solid grey;
+    border-style: outset;
 }
 
 .video {
@@ -41,18 +46,26 @@ h4 {
 .kids {
     background: url("Pictures/kidsBackground.jpg") no-repeat;
     margin-top: 10px;
+    box-shadow: 2px 2px 10px grey;
 }
+
 .info {
-    background: black;  
+    background: black;
     margin-top: 10px;
 }
 
 .links {
+    box-shadow: -2px 2px 10px grey;
     background: url("Pictures/spaceBackground.jpg") no-repeat;
     background-size: cover;
 }
 
 .theories {
+    box-shadow: 2px -2px 10px grey;
     background: url("Pictures/universe.jpg") no-repeat;
     background-size: cover;
+}
+
+.adspace {
+    box-shadow: -2px -2px 10px grey;
 }
