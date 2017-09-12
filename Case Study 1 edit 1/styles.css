@@ -69,3 +69,9 @@ h4 {
 .adspace {
     box-shadow: -2px -2px 10px grey;
 }
+
+.quote {
+    text-shadow: 0 0 5px blue;
+    font-size: 24px;
+    
+}
